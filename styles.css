@@ -1,0 +1,114 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Encabezado */
+#header {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#header h1 {
+    margin: 0;
+    color: #333;
+}
+
+/* Contenido principal */
+#main-content {
+    padding: 20px;
+}
+
+/* Árbol Genealógico */
+#family-tree {
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#family-tree h2 {
+    color: #0066cc;
+}
+
+#family-tree a {
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#family-tree a:hover {
+    text-decoration: underline;
+}
+
+/* Información de los personajes */
+.family-member {
+    background-color: white;
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.family-member h2 {
+    color: #0066cc;
+}
+
+.family-member p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Álbum de fotos */
+#photo-album {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#photo-album h2 {
+    color: #0066cc;
+    text-align: center;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.photo {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.photo:hover {
+    transform: scale(1.05);
+}
+
+/* Pie de página */
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#footer p {
+    margin: 0;
+}
